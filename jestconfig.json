@@ -1,0 +1,14 @@
+{
+  "transform": {
+    "^.+\\.(t|j)sx?$": [
+      "ts-jest",
+      {
+        "diagnostics": {
+          "ignoreCodes": ["TS151001"]
+        }
+      }
+    ]
+  },
+  "testRegex": "(/__tests__/.*|(\\.|/)( test|spec))\\.(jsx?|tsx?)$",
+  "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"]
+}
